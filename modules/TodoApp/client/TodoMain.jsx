@@ -49,8 +49,7 @@ export default class TodoMain extends Component {
           <TodoHeader
               incompleteCount={this.data.incompleteCount}
               hideCompleted={this.state.hideCompleted}
-              toggleHideCompleted={this.handleToggleHideCompleted}
-          />
+              toggleHideCompleted={this.handleToggleHideCompleted}/>
           <TodoList tasks={this.data.tasks} />
         </div>
     );
